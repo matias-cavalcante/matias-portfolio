@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0px;
 }
@@ -15,7 +19,7 @@ header{
     position: absolute;
     height: 35%;
     width: 100%;
-    background-color: #464660;
+    background-color: #512D6D;
 }
 
 #top{
@@ -115,4 +119,38 @@ header{
     border-radius: 30px;
     background-color: #77ACF1;
     color:white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#learn:hover {
+    background-color: #7C83FD;
+    color: white;
+  }
+
+#about{
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    top:100%;
+    background-color: #EEEEEE;
+}
+
+#path{
+    display: inline-block;
+    align-self: center;
+    top:18%;
+    left: 25%;
+    position: relative;
+    width: 50%;
+    background-color: green;
+}
+
+#currently{
+    display: inline-block;
+    top:25%;
+    left:25%;
+    position: relative;
+    width: 50%;
+    background-color: yellow;
 }
