@@ -1,0 +1,25 @@
+section header{
+    max-width: 100%;
+    height: 40vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#first {
+    width:30%;
+    height: 60%;
+    background-color: yellow;
+}
+
+#second {
+    width:30%;
+    height: 60%;
+    background-color: pink;
+}
+
+/*#third {
+    width:50%;
+    background-color: green;
+    flex-wrap: wrap;
+}*/
