@@ -6,6 +6,76 @@ body{
     margin:0px;
 }
 
+nav{
+    border-bottom: solid 0.1px #A7C4BC;
+    background-color: #2C2E43;
+    width: 100%;
+    min-height: 30px;
+    position:fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    /*z-index: 9; /*Otherwise when scrolling, beneath content goes on top*/
+}
+
+nav p{
+    display: inline-block;
+    position: relative;
+    left: 8%;
+    padding: 3px;
+    margin: 0;
+    font-family: 'Sulphur Point', sans-serif;
+    color: #CEE5D0;
+}
+
+nav ul{
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Sulphur Point', sans-serif;
+    color:white;
+}
+
+nav ul li a:hover{
+    color: #7C83FD;
+}
+
+header{
+    margin-top: 30px;
+    padding: 2%;
+    background-color: #3D087B;
+}
+
+header h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.7em;
+    margin-left: 7%;
+    color:#C2FFD9;
+    text-shadow: 3.5px 3px 0px rgba(0,0,0,0.2);
+}
+
+header h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    margin-left: 7%;;
+    color:#C2FFD9;
+    text-shadow: 3.5px 3px 0px rgba(0,0,0,0.2);
+}
+
+
+/*
 main{
     position: absolute;
     top: 34%;
@@ -15,62 +85,9 @@ main{
     background-color: #583D72;
 }
 
-header{
-    position: absolute;
-    height: 35%;
-    width: 100%;
-    background-color: orange;
-    /*background-color: #512D6D;*/
-    /*display: flex;*/
-}
 
-#top{
-    border-bottom: solid;
-    border-bottom-width: 0.1px;
-    border-bottom-color: #A7C4BC;
-    background-color: #512D6D;
-    display: flex;
-    width: 100%;
-    /*height: 8%;*/
-    position:fixed;
-    z-index: 9;
-    flex-wrap: wrap;
-}
 
-#top p{
-    align-self: center;
-    padding-right: 45%;
-    left: 10%;
-    position: relative;
-    margin: 0%;
-    font-family: 'Sulphur Point', sans-serif;
-    color: #CEE5D0;
-    background-color: hotpink;
-}
 
-#top .links{
-    background-color: red;
-    position: relative;
-    left:15%;
-    bottom: 5%;
-    width: 22%;
-    margin: 0%;
-    display: flex;
-    justify-content: space-between;
-    min-height: 0;
-}
-
-#top .links a{
-    color: white;
-    text-decoration: none;
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 2.5vh;
-    align-self: center;
-}
-
-#top a:hover{
-    color: #7C83FD;
-}
 
 
 #heading{
@@ -83,12 +100,13 @@ header{
     z-index: 3;
 }
 
+
 #heading h1{
     position: absolute;
     top: 50px;
     margin: 0px;
     left: 0.5%;
-    /*font-size: 55px;*/
+    font-size: 55px;
     font-size:4.2vw;
     font-family: 'Inter', sans-serif;
     color:#C2FFD9;
@@ -96,15 +114,17 @@ header{
     z-index: 2;
 }
 
+
 #heading h3{
     position:relative;
     top:85px;
     left: 0.5%;
-    /*font-size: 30px;*/
+    font-size: 30px;
     font-size: 2.5vw;
     font-family: 'Inter', sans-serif;
     color:#C2FFD9;
 }
+
 
 #behind{
     display: flex;
@@ -156,6 +176,7 @@ header{
     color: white;
   }
 
+  */
 #about{
     position:absolute;
     height: 100vh;
