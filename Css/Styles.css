@@ -103,8 +103,6 @@ figure{
 figure img{
     width: 100%;
     max-width: 400px;
-    /*height: auto;
-    margin: auto;*/
     margin-left: 20%;
     margin-top: 5%;
 }
@@ -187,11 +185,132 @@ figure, aside{
     }
 
     aside p{
-        margin-top: 8%;
         font-size: 1.1em;
     }
-    
 }
+
+/*SECTION (MIDDLE OF PAGE) BEGGINS HERE*/
+
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: #583D72;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about-text-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+#skills-icons-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-text-box, #skills-icons-box{
+    width: 50%;
+    height: 100%;
+}
+
+#about-text-box  div{
+    width:75%;
+    height: 30%;
+    margin-bottom: 30px;
+}
+
+div h1, div p{
+    font-family: 'Pontano Sans', sans-serif;
+    color: white;
+    padding-left: 9%;
+}
+
+
+@media  screen and (max-width: 1002px) {
+    section{
+        margin-top: 60px;
+    }
+
+    div h1, div p{
+        padding-left: 0;
+    }
+
+    #skills-icons-box{
+        width: 100%;
+        flex-grow: 1;
+    }
+    
+    #about-text-box{
+        flex-grow: 1;
+        width: 100%;
+    }
+
+    #about-text-box  div {
+        width:85%;
+    }
+
+    #skills-icons-box h1{
+        padding-right: 6%;
+    }
+
+}
+
+#skills-icons-box h1{
+    color:white;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 30px;
+    padding-right: 8%;
+}
+
+#logos{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logos > * {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+#logos .devicon-html5-plain-wordmark{
+    font-size: 42px;
+    color:white;
+}
+
+#logos .devicon-java-plain-wordmark{
+    font-size: 55px;
+    color:white;
+}
+
+#logos .devicon-python-plain{
+    font-size: 43px;
+    color:white;
+}
+
+#logos .devicon-mysql-plain{
+    font-size: 46px;
+    color:white;
+}
+
+#logos .devicon-git-plain-wordmark{
+    font-size: 66px;
+    color:white;
+}
+
+#logos .devicon-css3-plain{
+    font-size: 38px;
+    color:white;
+}
+
 
 /*
 #behind{
