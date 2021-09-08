@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Styles.css">
-    <script type="text/javascript" src= "Js/js.js"></script>
+    <link rel="stylesheet" href="Css\Styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,43 +38,41 @@
     <title>Matias Cavalcante</title>
 </head>
 <body>
-    <nav>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
-        <input type="checkbox" id = "nav-check" class = "nav-check">
-            <label for = "nav-check" class = "nav-toggle"><img  id = "burguer" src= "Imgs/11391845771556280999-128.png" />
-            </label>
-        <div id = "Logo-box">
-                <p>Matias Cavalcante</p>
-        </div>
+
+  <div id="menu-toggle">
+      <img src = "Imgs/11391845771556280999-128.png">
+  </div>
+
+    <nav id = "navigation">
         <ul id = "menu-list">
-            <li><a href = "#nav">HOME</a></li>
-            <li><a href = "#about">ABOUT</a></li>
-            <li><a href = "#contact">CONTACT</a></li>
+            <li><a id="home" href="#hd">HOME</a></li>
+            <li><a id="about" href="#about-text-box">ABOUT</a></li>
+            <li><a id="bottom-section" href="#bottom-section">CONTACT</a></li>
         </ul>
+
     </nav>
-    <header>
+
+    <header id = "hd">
             <h1>Hey there, I am Matias Cavalcante</h1>
-            <h3>So, get to know me and my projects</h3>
+            <h2>Always seeking for quality</h2>
     </header>
+
     <main>
         <figure>
-                <img src = "Imgs/avatar-me.png" id = "back" alt = "Matias picture">
-        </figure> 
+                <img src = "Imgs/avatar-me.png" alt = "Matias picture">
+        </figure>
+
         <aside>
-            <p>I am an Argentinian programmer looking forward to work on projects that I can contribuite to, and also learn from.
-                In this visit, you will get to see some of what I am talking about.
+            <p>I am an Argentinian programmer looking to contribuite and learn from different projects.
+            Learn more about this below.
             </p>
         </aside>
         <!--<form action="#about">
             <button id="learn" type="submit">Learn more</button>
         </form>-->
     </main>
+
+    
     <section>
         <div id = "about-text-box">
             <div>
@@ -87,12 +85,13 @@
                 <h1>Recent actions and present status</h1>
                 <p>You can check on my GitHub profile. But please be kind to remember they made my learning path. You will find some
                 newby´s work and mistakes sometimes there. Sure, things to be improved.
-                I am currently learning Html, Css and Js. This website is a project where to show you how it´s going. 
+                I am currently learning Html, Css and Js. This website is a project where to show you how it´s going.
                 </p>
             </div>
         </div>
+
         <div id = "skills-icons-box">
-            <h1>Skills</h1>
+            <h2>Skills</h2>
             <div id = "logos">
                 <i class="devicon-html5-plain-wordmark"></i>
                 <i class="devicon-java-plain-wordmark"></i>
@@ -102,11 +101,13 @@
                 <i class="devicon-css3-plain"></i>
             </div>
         </div>
+
     </section>
+
     <section id = "bottom-section">
         <div>
             <h1>Let´s get in touch!</h1>
-            <p>Bewlow you can see some of my projects and skills. If you have any questions, suggests or angry critics reach me out!</p>
+            <p>Below you can see how to reach me out!. If you have any questions, suggests or else, just let me know</p>
             <ul>
                 <a href = "https://www.linkedin.com/in/matias-cavalcante-372571120/" target="_blank">
                     <i class="devicon-linkedin-plain-wordmark"></i>
@@ -119,65 +120,37 @@
                 </a>
             </ul>
         </div>
-        <footer></footer>
-    </section>
-    <!---
-    <section id = "about">
-        <div id = "path">
-            <h2>How I started</h2>
-            <p>First was Codecademy: Html & Css. Then two years of Software Engineering in the University, where I learnt basics
-            algorithms and Python. At the same time I was taking a short degree as a programmer at another school. I learnt Sqlite3
-            and Git/Github. Then through YouTube I learn Java and OOP.
-            </p>
-        </div>
-        <div id = "currently">
-            <h2>Recent actions and present status</h2>
-            <p>You can check on my GitHub profile. But please be kind to remember they made my learning path. You will find some
-            newby´s work and mistakes sometimes there. Sure, things to be improved.
-            I am currently learning Html, Css and Js. This website is a project where to show you how it´s going. 
-            </p>
+        <footer>
 
-        </div>
-        <div id = "vertical-line">
-        </div>
-        <section id = "skills">
-            <h1>Skills</h1>
-            <div id = "logos">
-                <i class="devicon-html5-plain-wordmark"></i>
-                <i class="devicon-java-plain-wordmark"></i>
-                <i class="devicon-python-plain"></i>
-                <i class="devicon-mysql-plain"></i>
-                <i class="devicon-git-plain-wordmark"></i>
-                <i class="devicon-css3-plain"></i>
-            </div>
-        </section>
+
+
+        </footer>
     </section>
-    <footer>
-        <section id = "repository">
-            <h1>Checkout my code on Github!</h1>
-            <div>
-                <p>I try to keep my projects allocated on my Github profile. Please check it out and feel free to explore.
-                I recommend specially my Tic-tac-toe and Quiz game on Java, and please share your feedback</p>
-            </div>
-            <a href= "https://github.com/matias-cavalcante" target="_blank">
-                <i class="devicon-github-original-wordmark"></i>
-            </a>
-        </section>
-        <section id = "contact">
-            <h1>Connect with me!</h1>
-            <ul>
-                <a href = "https://www.linkedin.com/in/matias-cavalcante-372571120/" target="_blank">
-                    <i class="devicon-linkedin-plain-wordmark"></i>
-                </a>
-                <a href = "https://www.hackerrank.com/matias_cavalcan1?hr_r=1" target="_blank">
-                    <img src = "Imgs/hkr.png">
-                </a>
-                <a href = "mailto:matias.cavalcante93@gmail.com" target="_blank">
-                    <img src = "Imgs/gmail.png" >
-                </a>
-            </ul>
-        </section>
-    </footer>
-    --->
+
 </body>
+
+<script type="text/javascript">
+
+    let head = document.querySelector('#navigation');
+    
+    document.querySelector("#home").addEventListener('click', function () {
+        head.classList.remove("togglear");
+    });
+    
+    document.querySelector('#about').addEventListener('click', function () {
+        head.classList.remove("togglear");
+    });
+    
+    document.querySelector('#bottom-section').addEventListener('click', function(){
+        head.classList.remove("togglear");
+    });
+    
+    var navi = document.querySelector('#navigation');
+    
+    document.querySelector('#menu-toggle').addEventListener('click', function () {
+        head.classList.toggle('togglear');
+    });
+    
+    </script>
 </html>
+
