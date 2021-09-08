@@ -4,12 +4,13 @@ html{
 
 body{
     margin:0px;
-    background-color: #6155A6;
+    /*background-color: #6155A6;*/
+    background-color: #11052C;
 }
 
 nav{
     border-bottom: solid 0.1px #A7C4BC;
-    background-color: #2C2E43;
+    background-color: #0D335D;
     width: 100%;
     min-height: 40px;
     position:fixed;
@@ -69,7 +70,7 @@ nav ul li a:hover{
 header{
     margin-top: 40px;
     padding: 1%;
-    background-color: #0F3057;
+    background-color: #150E56;
 }
 
 header h1{
@@ -234,7 +235,7 @@ section{
     height: 50%;
     margin-top: 4.5%;
     margin-bottom: 4.5%;
-    background-color: #6F69AC;
+    background-color: #0D335D;
     border-radius: 5px;
 }
 
@@ -294,7 +295,7 @@ footer{
     margin: 0;
     width: 100% ;
     min-height: 100px;
-    background-color:  #3D087B;;
+    background-color:  #150E56;
 }
 
 /*MEDIA QUERIES ALL BELOW*/
