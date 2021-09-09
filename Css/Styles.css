@@ -16,6 +16,7 @@ nav{
     position:fixed;
     top: 0;
     display: flex;
+    z-index: 9;
 }
 
 nav ul{
@@ -117,6 +118,10 @@ aside{
     width: calc(100% - 600px);
     float: right;
     padding-right: 45px;
+    position: relative;
+    position:relative;
+    top: 20%;
+    z-index: 1;
 }
 
 aside p{
@@ -384,6 +389,8 @@ footer{
         float: none;
         display: block;
         width: 100%;
+        position:unset;
+        top: 0;
     }
 
     aside p{
