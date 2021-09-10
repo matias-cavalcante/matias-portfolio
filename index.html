@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css\Styles.css">
+    <script src="https://kit.fontawesome.com/28b186d498.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,9 +40,18 @@
 </head>
 <body>
 
-  <div id="menu-toggle">
-      <img src = "Imgs/11391845771556280999-128.png">
-  </div>
+    <div id="menu-toggle">
+        <img src = "Imgs/11391845771556280999-128.png">
+    </div>
+
+    <div id = "switch">
+        <input type="checkbox" class = "checkbox" id = "checkbox">
+    <label for ="checkbox" class = "label">
+        <i class="fas fa-moon"></i>
+        <i class = "fas fa-sun"></i>
+        <div class = "ball"></div>
+    </label>
+    </div>
 
     <nav id = "navigation">
         <ul id = "menu-list">
@@ -77,13 +87,13 @@
         <div id = "about-text-box">
             <div>
                 <h1>How I started</h1>
-                <p>First was Codecademy: Html & Css. Then two years of Software Engineering in the University, where I learnt basics
-                 algorithms and Python. At the same time I was taking a short degree as a programmer at another school. I learnt Sqlite3
-                and Git/Github. Then through YouTube I learn Java and OOP.</p>
+                <p>First a little of Html & Css. Then two years of Software Engineering in the University. There I learnt basics
+                 algorithms with Python. At the same time I was taking a short degree as a programmer at another school. I learnt Sqlite3
+                and Git/Github. Finally through YouTube I learn Java and OOP.</p>
             </div>
             <div>
                 <h1>Recent actions and present status</h1>
-                <p>You can check on my GitHub profile. But please be kind to remember they made my learning path. You will find some
+                <p>You can check on my GitHub profile. Please remember to consider projects are since first experiences. You will find some
                 newby´s work and mistakes sometimes there. Sure, things to be improved.
                 I am currently learning Html, Css and Js. This website is a project where to show you how it´s going.
                 </p>
@@ -121,12 +131,9 @@
             </ul>
         </div>
         <footer id = "end">
-
-
-
+            <h2>Matias Pablo Cavalcante © 2021</h2>
         </footer>
     </section>
-
 </body>
 
 <script type="text/javascript">
@@ -149,6 +156,13 @@
     
     document.querySelector('#menu-toggle').addEventListener('click', function () {
         head.classList.toggle('togglear');
+    });
+
+
+    const checkbox = document.getElementById("checkbox");
+    checkbox.addEventListener('change', () => {
+        document.body.classList.toggle('light');
+
     });
     
     </script>
