@@ -36,7 +36,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     font-weight: bold;
     color:white;
 }
@@ -230,7 +230,6 @@ section{
 #about-text-box  div h1,p{
     text-align: center;
     font-family: 'Pontano Sans', sans-serif;
-    font-weight: bold;
     color: #9DDFD3;
 }
 
@@ -294,14 +293,14 @@ section{
 }
 
 #bottom-section div h1{
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     color:#9DDFD3;
     padding-left: 0;
     text-align: center;
 }
 
 #bottom-section div p{
-    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Pontano Sans', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
@@ -453,6 +452,10 @@ footer h2{
 
     header h2{
         display: none;
+    }
+
+    nav ul li{
+        padding-right: 3.5%;
     }
 
     main{
