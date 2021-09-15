@@ -455,7 +455,7 @@ footer h2{
     }
 
     nav ul li{
-        padding-right: 3.5%;
+        padding-right: 3.5% !important;
     }
 
     main{
