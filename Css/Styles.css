@@ -179,6 +179,7 @@ aside p{
     font-weight: bold;
     font-size: 1.65em;
     width: 85%;
+    text-align:justify;
     color: #9DDFD3;
 }
 
@@ -222,7 +223,7 @@ section{
 }
 
 #about-text-box  p{
-    text-align: center;
+    text-align: justify;
     width: 90%;
     padding-left: 5%;
 }
@@ -303,7 +304,7 @@ section{
     font-family: 'Pontano Sans', sans-serif;
     padding-left: 5%;
     padding-right: 5%;
-    text-align: center;
+    text-align: justify;
     color: #9DDFD3;
 }
 
@@ -534,7 +535,7 @@ footer h2{
 
  
  body.light{
-     background-color: #CEDEBD;
+     background-color: #96BAFF;
  }
 
  body.light p{
@@ -546,7 +547,7 @@ body.light #about-text-box div h1{
 }
 
 body.light header{
-    background-color: #145374;
+    background-color: #7C83FD;
 }
 
 body.light footer{
@@ -558,7 +559,9 @@ body.light #skills-icons-box h2{
 }
 
 body.light header h1, header h2{
-    color: #CFFFFE;
+    /*color: #CFFFFE;*/
+    color: #0A1931;
+    text-shadow: none;
 }
 
 body.light #logos i{
