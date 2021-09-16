@@ -558,9 +558,13 @@ body.light #skills-icons-box h2{
     color: #145374;
 }
 
-body.light header h1, header h2{
-    /*color: #CFFFFE;*/
-    color: #0A1931;
+body.light header h1{    
+    color: #293B5F;
+    text-shadow: none;
+}
+
+body.light header h2{    
+    color: #293B5F;
     text-shadow: none;
 }
 
