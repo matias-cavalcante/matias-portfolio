@@ -71,8 +71,8 @@ nav ul li a:hover{
 
 #switch{
     position: fixed;
-    top: 5px;
-    left: 10px;
+    top: 1%;
+    left: 1.5%;
     z-index: 999;
 }
 
@@ -398,8 +398,6 @@ footer h2{
     #switch{
         visibility: visible !important;
         position: absolute;
-        top: 16px;
-        left: 7px;
     }
 
     .label{
